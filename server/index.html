@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div>
+    <a>hello</a>
+    <img src="./images/apple.jpg" />
+</div>
+<script>
+  function abc(){
+    $.get("http://143.244.137.54:3005/", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+    console.log('helloq')
+  });
+  }
+  abc()
+
+</script>
+</body>
